@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url("../img/bg.png");
+    background-color: #b8e5f8;
+}
+a{
+    text-decoration: none;
+}
+.con {
+    width: 430px;
+    background-color: white;
+    margin: 150px auto 0;
+    text-align: center;
+    padding-top: 30px;
+}
+.intro {
+    color: #0088ff;
+    font-size: 22px;
+    padding-top: 15px;
+}
+.login {
+    /* 更改盒子模型宽高的计算方式 */
+    /* 宽度 = content + padding + border */
+    /* 宽 = width = conent + padding + border */
+    box-sizing: border-box;
+    padding: 15px 30px 0;
+
+}
+.login input{
+    display: block;
+    /*text-align: center;*/
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+    outline: none;
+}
+.others {
+    text-align: justify;
+    text-align-last: justify;
+    padding: 20px 0;
+}
+.others a{
+    display: inline-block;
+    font-size: 13px;
+    color: #8590a6;
+}
+.others a:nth-child(1){
+    color: #175199;   /* 设置第一个a标签的颜色*/
+}
+.btn.btn {
+    background-color: #0088ff;
+    color: white;
+    border: none;
+    border-radius: 3px;   /* 圆角 */
+}
+.more {
+    font-size: 13px;
+    padding: 15px 0 30px;
+    color: gray;
+}
+.register {
+    background-color: #f6f6f6;
+    border-top: 1px solid #ebebeb;
+    padding: 15px 0;
+}
+.download {
+    width: 430px;
+    margin: 30px auto 0 ;
+    color: white;
+    background-color: #8590a6;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 3px;
+}
